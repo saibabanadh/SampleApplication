@@ -6,7 +6,8 @@ gem 'rails', '4.1.2'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.11.0'
 gem 'bcrypt-ruby', '3.1.2'
-
+gem 'digest', '0.0.1'
+gem 'gravatar', '1.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
