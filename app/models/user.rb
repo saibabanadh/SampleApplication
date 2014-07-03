@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+ has_many :microposts, dependent: :destroy
  before_save { self.name = name }
  before_save { self.email = email.downcase }
  before_create :create_remember_token
@@ -20,6 +21,12 @@ validates :password, length: { minimum: 6 }
     Digest::SHA1.hexdigest(token.to_s)
   end
 
+  def feed
+  
+     microposts
+  end
+  
+  
   private
 
     def create_remember_token
