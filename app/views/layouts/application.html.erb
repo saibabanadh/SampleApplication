@@ -6,7 +6,7 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <%= render 'layouts/shim' %>
-
+  <%= javascript_include_tag '/custom/js/test.js', 'data-turbolinks-track' => true %>
   
 </head>
 <body style="background:#f5f5f5;">
@@ -20,7 +20,7 @@
       <%= yield %>
  </div>
  <%= render 'layouts/footer' %>
- <%= debug(params) if Rails.env.development? %>
+ 
 </div>
 </body>
 </html>
