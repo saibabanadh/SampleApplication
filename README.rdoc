@@ -3,6 +3,8 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
+[ ![Codeship Status for saibabanadh/SampleApplication](https://www.codeship.io/projects/f45d8a30-e5cf-0131-a066-460c63d63aed/status)](https://www.codeship.io/projects/25787)
+
 Things you may want to cover:
 
 * Ruby version
